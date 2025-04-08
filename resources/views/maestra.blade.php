@@ -3,7 +3,7 @@
         <div id="layoutSidenav">
            @include('layouts.sidebar')
             <div id="layoutSidenav_content">
-                @yield('content')
+                {{ $slot }}
             </div>
         </div>
 @include('layouts.footer')
