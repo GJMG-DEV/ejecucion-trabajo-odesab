@@ -16,8 +16,7 @@
                 <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
                         <a class="nav-link" href="{{route('servicio')}}">Servicios</a>
-                        <a class="nav-link" href="layout-sidenav-light.html">Encargados</a>
-                        <a class="nav-link" href="layout-sidenav-light.html">Solicitante</a>
+                        <a class="nav-link" href="{{route('trabajadores')}}">Encargados</a>
                     </nav>
                 </div>
                
@@ -25,7 +24,7 @@
                 <div class="sb-sidenav-menu-heading">Addons</div>
                 <a class="nav-link" href="charts.html">
                     <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                    Problemas
+                   Registra Problema
                 </a>
                 
             </div>

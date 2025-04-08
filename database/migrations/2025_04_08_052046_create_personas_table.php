@@ -20,6 +20,8 @@ return new class extends Migration
             $table->string('direccion')->nullable();
             $table->string('celular',9);
             $table->enum('estado',['Activo','Inactivo'])->default('Activo');
+            $table->enum('tipo', ['obrero', 'usuario']); // Nuevo campo para distinguir entre obrero y usuario
+            $table->string('cargo')->nullable(); // Campo opcional solo para obreros
             $table->timestamps();
         });
     }
